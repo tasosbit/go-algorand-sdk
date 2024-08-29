@@ -7,9 +7,9 @@ import (
 	"io/ioutil"
 	"log"
 
-	"github.com/algorand/go-algorand-sdk/v2/crypto"
-	"github.com/algorand/go-algorand-sdk/v2/transaction"
-	"github.com/algorand/go-algorand-sdk/v2/types"
+	"github.com/tasosbit/go-algorand-sdk/v2/crypto"
+	"github.com/tasosbit/go-algorand-sdk/v2/transaction"
+	"github.com/tasosbit/go-algorand-sdk/v2/types"
 )
 
 func main() {

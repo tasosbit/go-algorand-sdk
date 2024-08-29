@@ -10,10 +10,9 @@ import (
 	"encoding/binary"
 	"fmt"
 
+	"github.com/tasosbit/go-algorand-sdk/v2/encoding/msgpack"
+	"github.com/tasosbit/go-algorand-sdk/v2/types"
 	"golang.org/x/crypto/ed25519"
-
-	"github.com/algorand/go-algorand-sdk/v2/encoding/msgpack"
-	"github.com/algorand/go-algorand-sdk/v2/types"
 )
 
 // txidPrefix is prepended to a transaction when computing its txid

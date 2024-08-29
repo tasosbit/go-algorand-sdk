@@ -4,10 +4,10 @@ import (
 	"crypto/ed25519"
 	"testing"
 
-	"github.com/algorand/go-algorand-sdk/v2/crypto"
-	"github.com/algorand/go-algorand-sdk/v2/mnemonic"
-	"github.com/algorand/go-algorand-sdk/v2/types"
 	"github.com/stretchr/testify/require"
+	"github.com/tasosbit/go-algorand-sdk/v2/crypto"
+	"github.com/tasosbit/go-algorand-sdk/v2/mnemonic"
+	"github.com/tasosbit/go-algorand-sdk/v2/types"
 )
 
 func TestMakeBasicAccountTransactionSigner(t *testing.T) {

@@ -7,9 +7,8 @@ import (
 	"fmt"
 	"math"
 
+	"github.com/tasosbit/go-algorand-sdk/v2/encoding/msgpack"
 	"golang.org/x/crypto/ed25519"
-
-	"github.com/algorand/go-algorand-sdk/v2/encoding/msgpack"
 )
 
 // TxType identifies the type of the transaction

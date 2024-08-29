@@ -6,9 +6,9 @@ import (
 
 	"github.com/cucumber/godog"
 
-	"github.com/algorand/go-algorand-sdk/v2/client/v2/algod"
-	"github.com/algorand/go-algorand-sdk/v2/client/v2/indexer"
-	"github.com/algorand/go-algorand-sdk/v2/encoding/msgpack"
+	"github.com/tasosbit/go-algorand-sdk/v2/client/v2/algod"
+	"github.com/tasosbit/go-algorand-sdk/v2/client/v2/indexer"
+	"github.com/tasosbit/go-algorand-sdk/v2/encoding/msgpack"
 )
 
 func feeFieldIsInTxn() error {
