@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/algorand/go-algorand-sdk/v2/client/v2/indexer"
 	"github.com/cucumber/godog"
+	"github.com/tasosbit/go-algorand-sdk/v2/client/v2/indexer"
 )
 
 func IndexerUnitTestContext(s *godog.Suite) {

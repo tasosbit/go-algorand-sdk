@@ -5,9 +5,8 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/tasosbit/go-algorand-sdk/v2/types"
 	"golang.org/x/crypto/ed25519"
-
-	"github.com/algorand/go-algorand-sdk/v2/types"
 )
 
 // prefix for multisig transaction signing

@@ -224,6 +224,9 @@ const ConsensusVAlpha4 = ConsensusVersion("alpha4")
 // ConsensusVAlpha5 uses the same parameters as ConsensusV36.
 const ConsensusVAlpha5 = ConsensusVersion("alpha5")
 
+// ConsensusVFnet1 has frozen future parameters at first incentives iteration
+const ConsensusVFnet1 = ConsensusVersion("fnet1")
+
 // !!! ********************* !!!
 // !!! *** Please update ConsensusCurrentVersion when adding new protocol versions *** !!!
 // !!! ********************* !!!

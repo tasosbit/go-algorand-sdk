@@ -1,10 +1,9 @@
 package kmd
 
 import (
+	"github.com/tasosbit/go-algorand-sdk/v2/encoding/msgpack"
+	"github.com/tasosbit/go-algorand-sdk/v2/types"
 	"golang.org/x/crypto/ed25519"
-
-	"github.com/algorand/go-algorand-sdk/v2/encoding/msgpack"
-	"github.com/algorand/go-algorand-sdk/v2/types"
 )
 
 // Version returns a VersionResponse containing a list of kmd API versions

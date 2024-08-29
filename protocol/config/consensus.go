@@ -3,7 +3,7 @@ package config
 import (
 	"time"
 
-	"github.com/algorand/go-algorand-sdk/v2/protocol"
+	"github.com/tasosbit/go-algorand-sdk/v2/protocol"
 )
 
 // ConsensusParams specifies settings that might vary based on the
@@ -1469,6 +1469,9 @@ func initConsensusProtocols() {
 	vAlpha5.ApprovedUpgrades = map[protocol.ConsensusVersion]uint64{}
 	Consensus[protocol.ConsensusVAlpha5] = vAlpha5
 	vAlpha4.ApprovedUpgrades[protocol.ConsensusVAlpha5] = 10000
+
+	vFnet1 := vFuture
+	Consensus[protocol.ConsensusVFnet1] = vFnet1
 }
 
 // Global defines global Algorand protocol parameters which should not be overridden.
