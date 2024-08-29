@@ -1469,6 +1469,8 @@ func initConsensusProtocols() {
 	vAlpha5.ApprovedUpgrades = map[protocol.ConsensusVersion]uint64{}
 	Consensus[protocol.ConsensusVAlpha5] = vAlpha5
 	vAlpha4.ApprovedUpgrades[protocol.ConsensusVAlpha5] = 10000
+
+	Consensus[protocol.ConsensusVFnet1] = vFuture
 }
 
 // Global defines global Algorand protocol parameters which should not be overridden.
