@@ -227,6 +227,9 @@ const ConsensusVAlpha5 = ConsensusVersion("alpha5")
 // ConsensusVFnet1 uses the same parameters as vFuture
 const ConsensusVFnet1 = ConsensusVersion("fnet1")
 
+// ConsensusVFnet2 uses the same parameters as vFuture
+const ConsensusVFnet2 = ConsensusVersion("fnet2")
+
 // !!! ********************* !!!
 // !!! *** Please update ConsensusCurrentVersion when adding new protocol versions *** !!!
 // !!! ********************* !!!
