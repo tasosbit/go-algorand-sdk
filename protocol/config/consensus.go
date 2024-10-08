@@ -1471,9 +1471,11 @@ func initConsensusProtocols() {
 	vAlpha4.ApprovedUpgrades[protocol.ConsensusVAlpha5] = 10000
 
 	vFnet1 := vFuture
+	vFnet1.ApprovedUpgrades = map[protocol.ConsensusVersion]uint64{}
 	Consensus[protocol.ConsensusVFnet1] = vFnet1
 
 	vFnet2 := vFuture
+	vFnet2.ApprovedUpgrades = map[protocol.ConsensusVersion]uint64{}
 	Consensus[protocol.ConsensusVFnet2] = vFnet2
 	vFnet1.ApprovedUpgrades[protocol.ConsensusVFnet2] = 10000
 }
