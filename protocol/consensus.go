@@ -230,6 +230,9 @@ const ConsensusVFnet1 = ConsensusVersion("fnet1")
 // ConsensusVFnet2 uses the same parameters as vFuture
 const ConsensusVFnet2 = ConsensusVersion("fnet2")
 
+// ConsensusVFnet3 disables challenges - without heartbeats, participating accounts are being evicted
+const ConsensusVFnet3 = ConsensusVersion("fnet3")
+
 // !!! ********************* !!!
 // !!! *** Please update ConsensusCurrentVersion when adding new protocol versions *** !!!
 // !!! ********************* !!!
