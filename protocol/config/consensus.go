@@ -525,6 +525,9 @@ type ConsensusParams struct {
 	// occur, extra funds need to be put into the FeeSink.  The bonus amount
 	// decays exponentially.
 	Bonus BonusPlan
+
+	// Heartbeat support
+	Heartbeat bool
 }
 
 // ProposerPayoutRules puts several related consensus parameters in one place. The same
