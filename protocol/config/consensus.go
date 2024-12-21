@@ -1537,25 +1537,7 @@ func initConsensusProtocols() {
 	Consensus[protocol.ConsensusVFnet4] = vFnet4
 	vFnet3.ApprovedUpgrades[protocol.ConsensusVFnet4] = 10000
 
-	// vFnet5: enable heartbeats, were accidentally left out of fnet4
-	vFnet5 := v39
-	vFnet5.ApprovedUpgrades = map[protocol.ConsensusVersion]uint64{}
-	Consensus[protocol.ConsensusVFnet5] = vFnet5
-	vFnet5.LogicSigVersion = 11
-	vFnet5.EnableLogicSigSizePooling = true
-	vFnet5.Payouts.Enabled = true
-	vFnet5.Payouts.Percent = 50
-	vFnet5.Payouts.GoOnlineFee = 2_000_000
-	vFnet5.Payouts.MinBalance = 30_000_000_000
-	vFnet5.Payouts.MaxBalance = 70_000_000_000_000
-	vFnet5.Payouts.MaxMarkAbsent = 32
-	vFnet5.Payouts.ChallengeInterval = 1000
-	vFnet5.Payouts.ChallengeGracePeriod = 200
-	vFnet5.Payouts.ChallengeBits = 5
-	vFnet5.Bonus.BaseAmount = 10_000_000
-	vFnet5.Bonus.DecayInterval = 1_000_000
-	vFnet5.Heartbeat = true
-	vFnet4.ApprovedUpgrades[protocol.ConsensusVFnet5] = 10000
+	vFnet4.ApprovedUpgrades[protocol.ConsensusV40] = 10000
 }
 
 // Global defines global Algorand protocol parameters which should not be overridden.
